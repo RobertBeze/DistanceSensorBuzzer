@@ -13,6 +13,6 @@ The setup is in schematics.png: led resistors: 150omh, passive buzzer resistor: 
 
 This little project allows you to monitor how much time you spend sitting in a chair at your desk.
 The distance can be changed: #define dist 100. I let it be 1meter because the sensor can interfere with other things at smaller distances.
-Aloso the timer can be change by altering the if with variable "contor" (default it's 1500 seconds)
+Aloso the timer can be changed by altering the if with variable "contor" (default it's 1500 seconds)
 
 
