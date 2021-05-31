@@ -5,7 +5,7 @@
 #define rosu 10
 #define verde 11
 #define dist 100
-#define timer 30
+#define timer 1500
 
 uint16_t distance=0, duration=0;
 uint16_t contor = 0;
