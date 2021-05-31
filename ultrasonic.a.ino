@@ -5,6 +5,7 @@
 #define rosu 10
 #define verde 11
 #define dist 100
+#define timer 30
 
 uint16_t distance=0, duration=0;
 uint16_t contor = 0;
@@ -38,7 +39,7 @@ void loop() {
     contor += 1;
   }
 
-  if(contor == 1500)
+  if(contor == timer)
   {
     digitalWrite(verde,LOW);
     delay(20);
